@@ -1,4 +1,5 @@
 class Employee:
+    """ Model representation of the Employee class"""
 
     def __init__(self, name, email, role):
         self.name = name
@@ -11,5 +12,6 @@ class Employee:
         return f"{__class__.__name__}({self.name})"
 
     def __str__(self):
+        """  string (representation) """
 
-        return f"{self.name - self.role}"
+        return f"{self.name} - {self.role}"
