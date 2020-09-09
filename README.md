@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/wandersonsc/python-alternative-constructor.svg?branch=master)](https://travis-ci.org/wandersonsc/python-alternative-constructor)
+[![Build Status](https://travis-ci.org/wandersonsc/Ptyhon-Alternative-Constructor.svg?branch=master)](https://travis-ci.org/wandersonsc/Ptyhon-Alternative-Constructor)
 
 # Python Alternative Constructor
 
