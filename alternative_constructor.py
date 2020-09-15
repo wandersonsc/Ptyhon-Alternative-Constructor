@@ -18,7 +18,10 @@ class Employee:
 
     @classmethod
     def from_json_create_employee(cls, data):
-        """ Custom class method that's allow you to create Employee instances from a Json file"""
+        """ 
+        Custom class method that's allow you to create Employee instances from a Json file
+        A class method receives the class as implicit first argument.
+        """
 
         # List Comprehension
         return [cls(row['name'], row['email'], row['role']) for row in data]
