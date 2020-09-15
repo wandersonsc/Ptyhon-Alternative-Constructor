@@ -1,0 +1,3 @@
+[run]
+
+omit = *ven/*, *conftest.py*, *__init__.py*
