@@ -20,9 +20,13 @@ class Employee:
     def from_json_create_employee(cls, data):
         """ Custom class method that's allow you to create Employee instances from a Json file"""
 
-        employees = []
+        # List Comprehension
+        return [cls(row['name'], row['email'], row['role']) for row in data]
 
-        for row in data:
-            employee = cls(row['name'], row['email'], row['role'])
-            employees.append(employee)
-        return employees
+        # Using a For looping to achieve the same results.
+        # employees = []
+
+        # for row in data:
+        #     employee = cls(row['name'], row['email'], row['role'])
+        #     employees.append(employee)
+        # return employees
