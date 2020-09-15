@@ -1,5 +1,7 @@
 [![Build Status](https://travis-ci.org/wandersonsc/Ptyhon-Alternative-Constructor.svg?branch=master)](https://travis-ci.org/wandersonsc/Ptyhon-Alternative-Constructor)
 
+[![codecov](https://codecov.io/gh/wandersonsc/Ptyhon-Alternative-Constructor/branch/master/graph/badge.svg)](https://codecov.io/gh/wandersonsc/Ptyhon-Alternative-Constructor)
+
 # Python Alternative Constructor
 
 ### Class Methods and Alternative Constructor.
