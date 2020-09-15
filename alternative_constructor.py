@@ -15,3 +15,14 @@ class Employee:
         """  string (representation) """
 
         return f"{self.name} - {self.role}"
+
+    @classmethod
+    def from_json_create_employee(cls, data):
+        """ Custom class method that's allow you to create Employee instances from a Json file"""
+
+        employees = []
+
+        for row in data:
+            employee = cls(row['name'], row['email'], row['role'])
+            employees.append(employee)
+        return employees

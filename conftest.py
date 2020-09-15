@@ -4,6 +4,6 @@ from alternative_constructor import Employee
 
 @pytest.fixture(scope='module')
 def employee():
-    print('Setup!')
+
     employee = Employee('Jack', 'jack@awesometech.com', 'Software Engineer')
     return employee
