@@ -1,6 +1,4 @@
-[![Build Status](https://travis-ci.org/wandersonsc/Ptyhon-Alternative-Constructor.svg?branch=master)](https://travis-ci.org/wandersonsc/Ptyhon-Alternative-Constructor)
-
-[![codecov](https://codecov.io/gh/wandersonsc/Ptyhon-Alternative-Constructor/branch/master/graph/badge.svg)](https://codecov.io/gh/wandersonsc/Ptyhon-Alternative-Constructor)
+[![Build Status](https://travis-ci.org/wandersonsc/Ptyhon-Alternative-Constructor.svg?branch=master)](https://travis-ci.org/wandersonsc/Ptyhon-Alternative-Constructor) [![codecov](https://codecov.io/gh/wandersonsc/Ptyhon-Alternative-Constructor/branch/master/graph/badge.svg)](https://codecov.io/gh/wandersonsc/Ptyhon-Alternative-Constructor)
 
 # Python Alternative Constructor
 
@@ -33,9 +31,7 @@ As the Python documentation said:
 1. Assuming you have Python setup, run the following commands (if you're on Windows you may use `py` or `py -3` instead of `python` to start Python):
 
 ```
-
 pip3 install -r requirements.txt
-
 ```
 
 ### This project includes:
@@ -43,7 +39,3 @@ pip3 install -r requirements.txt
 1. Class Methods
 2. Pytest
 3. Tracis CI
-
-```
-
-```
