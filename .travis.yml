@@ -8,3 +8,7 @@ install:
 # command to run tests
 script:
   - pytest
+
+# Push the results back to codecov
+after_success:
+  - bash <(curl -s https://codecov.io/bash)
