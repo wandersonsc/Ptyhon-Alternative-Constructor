@@ -19,8 +19,8 @@ class Employee:
     @classmethod
     def from_json_create_employee(cls, data):
         """ 
-        Custom class method that's allow you to create Employee instances from a Json file
-        A class method receives the class as implicit first argument.
+        Custom class method that allow you to create Employee instances from a Json file
+        Note that a class method receives the class as implicit first argument.
         """
 
         # List Comprehension

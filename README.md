@@ -4,7 +4,7 @@
 
 ### Class Methods and Alternative Constructor.
 
-Well, let see you want to implement an independent "constructors", so how to we go about to create one? And that's when the decoretor `@classmethod` comes into the picture, We normaly add them as a class methods, which does not call the default constructor `__init__` whatsoever!
+Well, let see you want to implement an independent "constructor", so how to we go about to create one? And that's when the decoretor `@classmethod` comes into the picture, We normaly add them as a class methods, which does not call the default constructor `__init__` whatsoever!
 
 ```python
    @classmethod
